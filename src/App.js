@@ -1,12 +1,14 @@
-import logo from './logo.svg';
 import './App.css';
 import Home from './Components/Home/Home';
+import { createContext } from 'react';
+
+export const MyContext=createContext()
 
 function App() {
   return (
-    <div className="app">
+    <MyContext.Provider>
       <Home></Home>
-    </div>
+    </MyContext.Provider>
   );
 }
 
