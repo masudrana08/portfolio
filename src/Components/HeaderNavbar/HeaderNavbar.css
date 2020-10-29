@@ -1,0 +1,12 @@
+#basic-navbar-nav{
+    text-align:center;
+}
+@media only screen and (max-width:991px){
+    .my-nav-link{
+        border-bottom:1px solid rgba(157, 212, 231, 0.267);
+    }
+    .home-link{
+        margin-top:15px;
+        border-top:1px solid rgba(157, 212, 231, 0.267);
+    }
+}
