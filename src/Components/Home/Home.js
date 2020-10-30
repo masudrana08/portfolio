@@ -24,9 +24,7 @@ const Home = () => {
                 <Blogs></Blogs>
             </div>
 
-            <div id="resume">
-                <Resume></Resume>
-            </div>
+            
 
             <div id="contact">
                 <Contact></Contact>

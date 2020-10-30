@@ -1,3 +1,6 @@
+.blogDetails-container{
+    box-shadow:0px 2px 2px lightgray;
+}
 
 @media only screen and (max-width:575px){
     .blogDetails-container{

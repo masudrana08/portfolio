@@ -2,7 +2,7 @@
 import React from 'react';
 import {Button, Nav, Navbar} from 'react-bootstrap';
 import './HeaderNavbar.css'
-import resume from './resume.pdf'
+import resume from '../resume.pdf'
 const HeaderNavbar = () => {
 
     return (
@@ -23,15 +23,16 @@ const HeaderNavbar = () => {
                     <Nav.Link  className="my-nav-link blog-link" style={{color:"#c2c1c1e7"}} href="#blog">
                         Blog
                     </Nav.Link>
-                    <Nav.Link   className="my-nav-link resume-link" style={{color:"#c2c1c1e7"}} href="#resume">
+                    {/* <Nav.Link   className="my-nav-link resume-link" style={{color:"#c2c1c1e7"}} href="#resume">
                         Resume
-                    </Nav.Link>
+                    </Nav.Link> */}
                     <Nav.Link  className="my-nav-link contact-link" style={{color:"#c2c1c1e7"}} href="#contact">
                         Contact
                     </Nav.Link>
                     <Nav.Link  className="my-nav-link resume-download-link" style={{color:"#c2c1c1e7"}} href="#contact">
                         <a href={resume} download="resume.pdf">
-                            <Button className="btn btn-sm" style={{background:"#e31b6d", outline:"none", border:"none"}}>Resume</Button>
+                            <Button className="btn btn-sm" style={{background:"#e31b6d", outline:"none", border:"none"
+                        , borderRadius:"40px"}}>Resume</Button>
                         </a>
                     </Nav.Link>
                     </Nav>
