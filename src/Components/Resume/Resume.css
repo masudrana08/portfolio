@@ -1,0 +1,16 @@
+.resume-container{
+    /* background:#2d313b; */
+
+}
+.resume-img-container{
+}
+
+.resume-img{
+    max-height: 80%;
+    max-width:60%;
+    margin:auto;
+    padding-top:10vh;
+}
+@media only screen and (max-width:991px){
+    
+}

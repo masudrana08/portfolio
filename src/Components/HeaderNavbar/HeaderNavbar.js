@@ -1,35 +1,38 @@
+
 import React from 'react';
-import {Nav, Navbar} from 'react-bootstrap';
+import {Button, Nav, Navbar} from 'react-bootstrap';
 import './HeaderNavbar.css'
 import resume from './resume.pdf'
 const HeaderNavbar = () => {
 
     return (
         <div>
-            <Navbar fixed="top" b expand="lg" style={{background:"#2d313b"}}>
-                <Navbar.Toggle aria-controls="basic-navbar-nav" />
-                <Navbar.Collapse id="basic-navbar-nav">
-                    <Nav className="ml-auto">
+            <Navbar fixed="top" b expand="lg" className="navbar-bg">
+                <Navbar.Toggle aria-controls="basic-navbar-nav" style={{fontSize:"15px"}} />
+                <Navbar.Collapse id="basic-navbar-nav" >
+                    <Nav className="ml-auto nav-bg" >
                     <Nav.Link  className="my-nav-link home-link" style={{color:"#c2c1c1e7"}} href="#home">
                         Home
                     </Nav.Link>
-                    <Nav.Link  className="my-nav-link" style={{color:"#c2c1c1e7"}} href="#about">
+                    <Nav.Link  className="my-nav-link about-link" style={{color:"#c2c1c1e7"}} href="#about">
                         About
                     </Nav.Link>
-                    <Nav.Link  className="my-nav-link" style={{color:"#c2c1c1e7"}} href="#projects">
+                    <Nav.Link  className="my-nav-link projects-link" style={{color:"#c2c1c1e7"}} href="#projects">
                         Projects
                     </Nav.Link>
-                    <Nav.Link  className="my-nav-link" style={{color:"#c2c1c1e7"}} href="#blog">
+                    <Nav.Link  className="my-nav-link blog-link" style={{color:"#c2c1c1e7"}} href="#blog">
                         Blog
                     </Nav.Link>
-                    <Nav.Link  className="my-nav-link" style={{color:"#c2c1c1e7"}} href="#resume">
+                    <Nav.Link   className="my-nav-link resume-link" style={{color:"#c2c1c1e7"}} href="#resume">
                         Resume
                     </Nav.Link>
-                    <Nav.Link  className="my-nav-link" style={{color:"#c2c1c1e7"}} href="#contact">
+                    <Nav.Link  className="my-nav-link contact-link" style={{color:"#c2c1c1e7"}} href="#contact">
                         Contact
                     </Nav.Link>
-                    <Nav.Link  className="my-nav-link" style={{color:"#c2c1c1e7"}} href="#contact">
-                        <a href={resume} download="resume.pdf">resume</a>
+                    <Nav.Link  className="my-nav-link resume-download-link" style={{color:"#c2c1c1e7"}} href="#contact">
+                        <a href={resume} download="resume.pdf">
+                            <Button className="btn btn-sm" style={{background:"#e31b6d", outline:"none", border:"none"}}>Resume</Button>
+                        </a>
                     </Nav.Link>
                     </Nav>
                 </Navbar.Collapse>
