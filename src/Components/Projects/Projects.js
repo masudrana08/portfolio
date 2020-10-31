@@ -29,7 +29,7 @@ const Projects = () => {
                   <Carousel  className="container" responsive={responsive}
                     swipeable={true}
                     draggable={true}
-                    showDots={true}
+                    showDots={false}
                     infinite={true}
                     autoPlay={false}
                     keyBoardControl={true}
