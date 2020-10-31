@@ -7,7 +7,7 @@ const HeaderNavbar = () => {
 
     return (
         <div>
-            <Navbar fixed="top" b expand="lg" className="navbar-bg">
+            <Navbar fixed="top" b expand="lg" className="navbar-bg" >
                 <Navbar.Toggle aria-controls="basic-navbar-nav" style={{fontSize:"15px"}} />
                 <Navbar.Collapse id="basic-navbar-nav" >
                     <Nav className="ml-auto nav-bg" >
