@@ -26,7 +26,7 @@ const Projects = () => {
       };
     return (
                 <div className="projects-container">
-                  <Carousel  className="container" responsive={responsive}
+                  <Carousel   responsive={responsive}
                     swipeable={true}
                     draggable={true}
                     showDots={false}
