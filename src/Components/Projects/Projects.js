@@ -26,6 +26,9 @@ const Projects = () => {
       };
     return (
                 <div className="projects-container">
+                  <div>
+                    <h1 className="project-section-title"><span style={{color:"white"}}>Some of  my </span>Projects...</h1>
+                  </div>
                   <Carousel   responsive={responsive}
                     swipeable={true}
                     draggable={true}

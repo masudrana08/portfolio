@@ -24,7 +24,6 @@ const Home = () => {
                 <Blogs></Blogs>
             </div>
 
-            
 
             <div id="contact">
                 <Contact></Contact>

@@ -4,9 +4,9 @@ import GitHubIcon from '@material-ui/icons/GitHub';
 import LinkIcon from '@material-ui/icons/Link';
 const ProjectDetails = ({data}) => {
     return (
-        <div className="projectDetails-container">
-            <div className="project-img" style={{background:`url("${data.img}")`,backgroundSize:"cover"}}>
-                    <div style={{padding:"20px"}} className="project-description">
+        <div className="blogDetails-container">
+            <div className="blog-img" style={{background:`url("${data.img}")`,backgroundSize:"cover"}}>
+                    <div style={{padding:"20px"}} className="blog-description">
                     <h5 style={{fontSize:"18px"}}>{data.title}</h5>
                         <div className="mb-3" >
                             <small style={{fontSize:"13px"}}>{data.description}</small>
